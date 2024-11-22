@@ -23,7 +23,7 @@ def convert(s):
     total = -1 
   return(total)
 
-def main()
+def main():
     hexString = input("Enter a number in hex:")
     prnt("The number in decimal is", convert(hexString))
 
